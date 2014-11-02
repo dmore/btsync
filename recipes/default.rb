@@ -138,7 +138,8 @@ end
 download_url = ""
 case node["languages"]["ruby"]["host_cpu"]
 when "x86_64"
-  download_url << "http://www.bittorrent.com/sync/downloads/complete/os/x64"
+  #download_url << "http://www.bittorrent.com/sync/downloads/complete/os/x64"
+  download_url << "http://download-new.utorrent.com/endpoint/btsync/os/linux-x64/track/stable"
 when "i686"
   download_url << "http://www.bittorrent.com/sync/downloads/complete/os/i386"
 when "arm"
